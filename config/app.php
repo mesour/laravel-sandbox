@@ -164,7 +164,7 @@ return [
          * Mesour application service provider
          */
 
-        \Mesour\Bridges\Nette\Laravel\ApplicationServiceProvider::class,
+        Mesour\Bridges\Laravel\ApplicationServiceProvider::class,
 
     ],
 

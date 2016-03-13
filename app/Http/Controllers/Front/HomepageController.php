@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
-use Mesour\Bridges\Nette\Laravel\ApplicationManager;
+use Mesour\Bridges\Laravel\ApplicationManager;
 use Mesour\DataGrid\Sources\ArrayGridSource;
 use Mesour\UI\DataGrid;
 
@@ -50,6 +50,11 @@ class HomepageController extends Controller
 
         $source = new ArrayGridSource($data, [
             'group' => $groups
+        ]);
+
+        //! this is IMPORTANT if using filter to date column with array source
+        $source->setStructure([
+            'last_login' => $source::DATE
         ]);
 
         $source->join('group', 'group_id', 'name', 'group_name');

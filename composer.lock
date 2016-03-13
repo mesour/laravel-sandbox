@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02064f048f99f131380f08a5c225dff3",
-    "content-hash": "5237efb92fda7966011036638c594962",
+    "hash": "18660ac562ff9dd7d1ae68526b3a7b58",
+    "content-hash": "58ef19e1bba82a0e7e4ac6a01be00de8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -876,16 +876,16 @@
         },
         {
             "name": "mesour/laravel-bridges",
-            "version": "3.0.0-beta",
+            "version": "v3.0.1-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/laravel-bridges.git",
-                "reference": "515c60861cdedba55325c33f5b1cefb01df600f5"
+                "reference": "54eafe6a6f77196efcf37c817823cd32ed93d49e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/laravel-bridges/zipball/515c60861cdedba55325c33f5b1cefb01df600f5",
-                "reference": "515c60861cdedba55325c33f5b1cefb01df600f5",
+                "url": "https://api.github.com/repos/mesour/laravel-bridges/zipball/54eafe6a6f77196efcf37c817823cd32ed93d49e",
+                "reference": "54eafe6a6f77196efcf37c817823cd32ed93d49e",
                 "shasum": ""
             },
             "require": {
@@ -918,7 +918,7 @@
                 "laravel bridges",
                 "mesour"
             ],
-            "time": "2016-03-13 14:43:42"
+            "time": "2016-03-13 18:38:34"
         },
         {
             "name": "mesour/pager",
