@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f3f50f771fec230f57bb326d519b518",
-    "content-hash": "631893efe0599fe616a66ad6831022c2",
+    "hash": "02064f048f99f131380f08a5c225dff3",
+    "content-hash": "5237efb92fda7966011036638c594962",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -519,16 +519,16 @@
         },
         {
             "name": "mesour/array-manager",
-            "version": "v0.0.1",
+            "version": "v3.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/ArrayManager.git",
-                "reference": "87eab400ae6a0d2aec2ab327606fbd243b410efb"
+                "reference": "03a2f6b72e0fb7404cddd10e6c3aa440850c938e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/ArrayManager/zipball/87eab400ae6a0d2aec2ab327606fbd243b410efb",
-                "reference": "87eab400ae6a0d2aec2ab327606fbd243b410efb",
+                "url": "https://api.github.com/repos/mesour/ArrayManager/zipball/03a2f6b72e0fb7404cddd10e6c3aa440850c938e",
+                "reference": "03a2f6b72e0fb7404cddd10e6c3aa440850c938e",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "array",
                 "array mange"
             ],
-            "time": "2015-05-10 23:56:42"
+            "time": "2016-03-09 10:27:41"
         },
         {
             "name": "mesour/button",
@@ -661,7 +661,7 @@
         },
         {
             "name": "mesour/datagrid",
-            "version": "dev-devel",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/DataGrid.git",
@@ -876,7 +876,7 @@
         },
         {
             "name": "mesour/laravel-bridges",
-            "version": "dev-master",
+            "version": "3.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/laravel-bridges.git",
@@ -3666,8 +3666,9 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "mesour/datagrid": 20,
-        "mesour/laravel-bridges": 20
+        "mesour/datagrid": 10,
+        "mesour/laravel-bridges": 10,
+        "mesour/array-manager": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

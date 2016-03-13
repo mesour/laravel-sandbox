@@ -131,6 +131,9 @@ class HomepageController extends Controller
         $grid->addNumber('amount', 'Amount')
             ->setUnit('CZK');
 
+        $grid->addDate('last_login', 'Last login')
+            ->setFormat('Y-m-d - H:i:s');
+
         $container = $grid->addContainer('test_container', 'Actions');
         $button = $container->addButton('test_button');
         $button->setIcon('pencil')
