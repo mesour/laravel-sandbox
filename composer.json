@@ -1,6 +1,6 @@
 {
     "name": "mesour/laravel-sandbox",
-    "description": "The sandbox is how to use mesour/nette-bridges in the Laravel Framework.",
+    "description": "The sandbox is how to use mesour/laravel-bridges in the Laravel Framework.",
     "keywords": ["framework", "laravel", "mesour components"],
     "license": "MIT",
     "type": "project",
