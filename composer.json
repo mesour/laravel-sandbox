@@ -8,8 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "mesour/datagrid": "3.0.*@beta",
-        "mesour/laravel-bridges": "dev-master",
-        "mesour/array-manager": "^0.0.1"
+        "mesour/laravel-bridges": "3.0.*@beta",
+        "mesour/array-manager": "3.0.*@beta"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

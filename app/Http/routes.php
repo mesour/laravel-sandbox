@@ -30,5 +30,6 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', 'Front\HomepageController@actionDefault');
+    Route::post('/', 'Front\HomepageController@actionDefault');
 
 });

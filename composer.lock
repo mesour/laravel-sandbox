@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72eee162255fa0d17c65888d1f0ed40d",
-    "content-hash": "f2d918255c8c6d30125fc36c0f8c479a",
+    "hash": "4f3f50f771fec230f57bb326d519b518",
+    "content-hash": "631893efe0599fe616a66ad6831022c2",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -610,16 +610,16 @@
         },
         {
             "name": "mesour/components",
-            "version": "3.0.1-beta",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/components.git",
-                "reference": "0e689cd19ffa14309a664ab37317827565b604d5"
+                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/components/zipball/0e689cd19ffa14309a664ab37317827565b604d5",
-                "reference": "0e689cd19ffa14309a664ab37317827565b604d5",
+                "url": "https://api.github.com/repos/mesour/components/zipball/95c1b865164e799f1f377bf2d111ce25fdaad2e0",
+                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0",
                 "shasum": ""
             },
             "require": {
@@ -657,20 +657,20 @@
             "keywords": [
                 "components"
             ],
-            "time": "2016-03-06 00:04:31"
+            "time": "2016-03-13 16:21:30"
         },
         {
             "name": "mesour/datagrid",
-            "version": "3.0.3-beta",
+            "version": "dev-devel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/DataGrid.git",
-                "reference": "f2fce2f45695c4548cac157af13218a3900c128c"
+                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/f2fce2f45695c4548cac157af13218a3900c128c",
-                "reference": "f2fce2f45695c4548cac157af13218a3900c128c",
+                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/e30e9acef6b94a4aafce549db9ca3b3557d36722",
+                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +688,7 @@
             "require-dev": {
                 "doctrine/orm": "^2.5",
                 "latte/latte": "~2.3.0",
-                "mesour/array-manager": "dev-master",
+                "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3.0",
                 "nette/robot-loader": "~2.3.0",
                 "tracy/tracy": "~2.3.0"
@@ -723,7 +723,7 @@
                 "datagrid",
                 "grid"
             ],
-            "time": "2016-03-08 12:35:27"
+            "time": "2016-03-13 17:19:11"
         },
         {
             "name": "mesour/dropdown",
@@ -776,16 +776,16 @@
         },
         {
             "name": "mesour/filter",
-            "version": "3.0.1-beta",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/filter.git",
-                "reference": "d5d04c12d48e105380481bdb9151b965006d6c60"
+                "reference": "94ed115b194f13e3469c55bcb8809b098507853a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/filter/zipball/d5d04c12d48e105380481bdb9151b965006d6c60",
-                "reference": "d5d04c12d48e105380481bdb9151b965006d6c60",
+                "url": "https://api.github.com/repos/mesour/filter/zipball/94ed115b194f13e3469c55bcb8809b098507853a",
+                "reference": "94ed115b194f13e3469c55bcb8809b098507853a",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.5",
-                "mesour/array-manager": "dev-master",
+                "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3",
                 "nette/tester": "^1.6",
                 "tracy/tracy": "~2.3.0"
@@ -825,7 +825,7 @@
                 "component",
                 "filter"
             ],
-            "time": "2016-03-05 23:10:09"
+            "time": "2016-03-13 17:10:49"
         },
         {
             "name": "mesour/icon",
@@ -1123,16 +1123,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.0",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc"
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
                 "shasum": ""
             },
             "require": {
@@ -1197,7 +1197,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-01 18:00:40"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -3666,7 +3666,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "mesour/datagrid": 10,
+        "mesour/datagrid": 20,
         "mesour/laravel-bridges": 20
     },
     "prefer-stable": true,
