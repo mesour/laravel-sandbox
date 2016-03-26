@@ -48,20 +48,24 @@ class HomepageController extends Controller
             ['id' => '3', 'name' => 'Group 3'],
         ];
 
-        $source = new ArrayGridSource($data, [
-            'group' => $groups
+        // create source
+        $source = new \Mesour\DataGrid\Sources\ArrayGridSource('users', 'id', $data, [
+            'group' => $groups,
         ]);
 
-        //! this is IMPORTANT if using filter to date column with array source
-        $source->setStructure([
-            'last_login' => $source::DATE
-        ]);
+        $groupStructure = $source->addTableToStructure('group', 'id');
+        $groupStructure->addNumber('id');
+        $groupStructure->addText('name');
 
-        $source->join('group', 'group_id', 'name', 'group_name');
+        $dataStrucutre = $source->getDataStructure();
+
+        $source->joinField('group', 'group_id', 'name', 'group_name');
+
+        $dataStrucutre->addDate('last_login');
+        $dataStrucutre->addDate('timestamp');
+        $dataStrucutre->addOneToOne('group_name', 'group', 'name');
 
         $grid->setSource($source);
-
-        $grid->getSource()->setPrimaryKey('id');
 
         $app->addComponent($grid);
 
